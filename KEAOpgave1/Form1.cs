@@ -17,9 +17,9 @@ namespace KEAOpgave1
             InitializeComponent();
         }
 
-        private void buttonHej_Click(object sender, EventArgs e)
+        private void buttonHej_Click(object sender, EventArgs e) // Metode for knappen 'Hej'. Når knappen klikkes vil alt inde i denne metode køres.
         {
-            labelHej.Text = "Hej " + textBoxNavn.Text + " velkommen til!";
+            labelHej.Text = "Hej " + textBoxNavn.Text + " velkommen til!"; // Tilføjer tekst til 'labelHej', navnet tages fra 'textBoxNavn'
         }
     }
 }
